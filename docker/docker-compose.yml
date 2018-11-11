@@ -1,0 +1,8 @@
+version: '3.1'
+services:
+  itoken-eureka-1:
+    restart: always
+    image: 127.0.0.0/itoken-eureka
+    container_name: itoken-eureka-1
+    ports:
+      - 8761:8761
